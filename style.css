@@ -1,62 +1,137 @@
-body{
-    color: white;
-    background-color: brown;
+body {
+  color: white;
+  background-color: brown;
 }
 
-.button{
-    padding: 0;
-    margin: 0;
-    width: 250px;
-    height: 250px;
-    text-align: center;
-    top: 150px;
-    left: 400px;
-    position: relative;
-    border: none;
-    border-radius: 50%;
-    transition-duration: .60s;
-    background-image: url(imagem/joao.jpeg);
-    background-size: cover;
-    color: white;
+.button {
+  padding: 0;
+  margin: 0;
+  width: 250px;
+  height: 250px;
+  text-align: center;
+  top: 150px;
+  left: 400px;
+  position: relative;
+  border: none;
+  border-radius: 50%;
+  transition-duration: 0.6s;
+  background-image: url(imagem/joao.jpeg);
+  background-size: cover;
+  color: white;
 }
-.button2{
-    padding: 0;
-    margin: 0;
-    width: 250px;
-    height: 250px;
-    text-align: center;
-    top: 150px;
-    left: 400px;
-    position: relative;
-    border: none;
-    border-radius: 50%;
-    transition-duration: .60s;
-    background-image: url(imagem/hugo.jpeg);
-    background-size: cover;
-    color: white;
+.button2 {
+  padding: 0;
+  margin: 0;
+  width: 250px;
+  height: 250px;
+  text-align: center;
+  top: 150px;
+  left: 400px;
+  position: relative;
+  border: none;
+  border-radius: 50%;
+  transition-duration: 0.6s;
+  background-image: url(imagem/hugo.jpeg);
+  background-size: cover;
+  color: white;
 }
-.button3{
-    padding: 0;
-    margin: 0;
-    width: 250px;
-    height: 250px;
-    text-align: center;
-    top: 150px;
-    left: 400px;
-    position: relative;
-    border: none;
-    border-radius: 50%;
-    transition-duration: .60s;
+.button3 {
+  padding: 0;
+  margin: 0;
+  width: 250px;
+  height: 250px;
+  text-align: center;
+  top: 150px;
+  left: 400px;
+  position: relative;
+  border: none;
+  border-radius: 50%;
+  transition-duration: 0.6s;
 }
-.button-primary:hover{
-    box-shadow: 0 30px 60px rgba(0,0,0,.5);
-    transform: scale(.95);
+.button-primary:hover {
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.5);
+  transform: scale(0.95);
 }
-.button-secundary:hover{
-    box-shadow: 0 30px 60px rgba(0,0,0,.5);
-    transform: scale(.95);
+.button-secundary:hover {
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.5);
+  transform: scale(0.95);
 }
-.button-terceary:hover{
-    box-shadow: 0 30px 60px rgba(0,0,0,.5);
-    transform: scale(.95);
+.button-terceary:hover {
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.5);
+  transform: scale(0.95);
+}
+.imgJ {
+  margin: 0;
+  width: 250px;
+  height: 250px;
+  text-align: center;
+  top: 0px;
+  left: 10px;
+  position: relative;
+  border: none;
+  border-radius: 50%;
+  transition-duration: 0.6s;
+  background-image: url(imagem/joao.jpeg);
+  background-size: cover;
+}
+.butto {
+  padding: 0;
+  margin: 0;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  top: -560px;
+  left: 680px;
+  position: relative;
+  border: none;
+  border-radius: 50%;
+  transition-duration: 0.6s;
+  background-image: url(imagem/projeto\ gatinho.jpeg);
+  background-size: cover;
+  color: white;
+}
+.butto2 {
+  padding: 0;
+  margin: 0;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  top: -560px;
+  left: 690px;
+  position: relative;
+  border: none;
+  border-radius: 50%;
+  transition-duration: 0.6s;
+  background-image: url(imagem/projeto\ calculadora.jpeg);
+  background-size: cover;
+  color: white;
+}
+.butto3 {
+  padding: 0;
+  margin: 0;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  top: -560px;
+  left: 700px;
+  position: relative;
+  border: none;
+  border-radius: 50%;
+  transition-duration: 0.6s;
+  background-image: url(imagem/projeto\ cronometro.jpg);
+  background-size: cover;
+  color: white;
+}
+.imgH {
+  margin: 0;
+  width: 250px;
+  height: 250px;
+  text-align: center;
+  top: 0px;
+  left: 10px;
+  position: relative;
+  border: none;
+  border-radius: 50%;
+  background-image: url(imagem/hugo.jpeg);
+  background-size: cover;
 }
