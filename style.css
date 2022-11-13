@@ -1,0 +1,62 @@
+body{
+    color: white;
+    background-color: brown;
+}
+
+.button{
+    padding: 0;
+    margin: 0;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    top: 150px;
+    left: 400px;
+    position: relative;
+    border: none;
+    border-radius: 50%;
+    transition-duration: .60s;
+    background-image: url(imagem/joao.jpeg);
+    background-size: cover;
+    color: white;
+}
+.button2{
+    padding: 0;
+    margin: 0;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    top: 150px;
+    left: 400px;
+    position: relative;
+    border: none;
+    border-radius: 50%;
+    transition-duration: .60s;
+    background-image: url(imagem/hugo.jpeg);
+    background-size: cover;
+    color: white;
+}
+.button3{
+    padding: 0;
+    margin: 0;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    top: 150px;
+    left: 400px;
+    position: relative;
+    border: none;
+    border-radius: 50%;
+    transition-duration: .60s;
+}
+.button-primary:hover{
+    box-shadow: 0 30px 60px rgba(0,0,0,.5);
+    transform: scale(.95);
+}
+.button-secundary:hover{
+    box-shadow: 0 30px 60px rgba(0,0,0,.5);
+    transform: scale(.95);
+}
+.button-terceary:hover{
+    box-shadow: 0 30px 60px rgba(0,0,0,.5);
+    transform: scale(.95);
+}
